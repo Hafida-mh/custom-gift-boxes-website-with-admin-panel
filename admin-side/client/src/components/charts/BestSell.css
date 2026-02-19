@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.stat-container {
+    border: 1px hidden black;
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    position: relative;
+}
+
+.stat-commands-container {
+    border: 1px hidden black;
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.stat-buttons,
+.chart-container {
+    border: 1px hidden orange;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin: 16px;
+    flex-wrap: wrap;
+}
+
+.stat-container .navigation-bar {
+    max-height: 100%;
+    background-color: filds;
+    z-index: 200;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    background-color: white;
+}
+
+.chart-content {
+    width: 100%;
+}
+
+.start-stat-button {
+    padding: 20px;
+    border: 1px solid #3862c4;
+    background-color: #dee6f6;
+    border-radius: 8px;
+    font-size: 1.2em;
+    
+}
+
+.start-stat-button:hover, .stat-button:hover {
+    background-color: #3862c4;
+    color: white;
+}
+
+/* STAT BUTTON */
+.stat-button {
+    padding: 16px;
+    border: 1px solid #3862c4;
+    background-color: #dee6f6;
+    border-radius: 8px;
+    font-size: 1em;
+    margin: 4px;
+}
+
+.bar-chart {
+    height: 220px;
+    width: 800px;
+    padding: 16px;
+    margin: 36px;
+}
+
+/* SELECT INPUT */
+#select1,
+#select {
+    border: 1px solid #96aee7;
+    padding: 16px;
+    background-color: #0d2d82;
+    color: white;
+    outline: hidden;
+}
+
+/* RESPONSIVE */
+@media screen and (max-width:463px) {
+    .start-stat-button {
+        margin: 0 0 0 30px;
+    }
+}
+
+@media screen and (max-width: 373px) {
+    .start-stat-button {
+        width: 100%;
+        margin: 6px 0 0 52px;
+        padding: 8px;
+    }
+}
+
+@media screen and (max-width:603px) {
+
+    .stat-buttons,
+    .chart-container {
+        flex-direction: column;
+    }
+
+    .stat-button {
+        width: 320px;
+    }
+}
+
+@media screen and (max-width:377px) {
+    .stat-button {
+        width: 250px;
+    }
+
+    .start-stat-button {
+        width: 100%;
+        margin: 26px 0 0 62px;
+        padding: 8px;
+    }
+}

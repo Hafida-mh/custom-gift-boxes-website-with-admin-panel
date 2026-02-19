@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.Ticket {
+    border: 1px hidden orange;
+    height: auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.print-button-container {
+    border: 1px hidden red;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+}
+
+.tickets-content {
+    border: 1px hidden red;
+    height: 350px;
+    width: auto;
+    margin: 10px;
+}
+
+.corporateInfo {
+    border: 1px hidden orange;
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.logo-tikcet {
+    border: 1px solid black;
+    height: 100px;
+    width: 100px;
+}
+
+.code {
+    height: 30px;
+}
+
+.cordination-corpotate {
+    width: 100%;
+    border: 1px solid orange;
+    background-color: #3862c4;
+}
+
+.cordination-corpotate ul {
+    text-decoration: none;
+    list-style-type: none;
+    width: 100%;
+}
+
+.cordination-corpotate li {
+    width: 100px;
+} 
+
+.clientInfo {
+    padding: 8px;
+}
+
+/* CODE BAR*/
+.disable-codebar-button {
+    border: 1px solid red;
+    background-color: none;
+    color: red;
+    font-weight: 600;
+    height: 30px;
+    width: 30px;
+    border-radius: 30px;
+}
+
+.input-codebar {
+    border: 1px solid #96aee7;
+    height: 50px;
+    width: 220px;
+    border-radius: 8px;
+}
+
+.button-validate-codebar {
+    padding: 8px;
+    margin: 16px;
+    border: 1px hidden #96aee7;
+    background-color: transparent;
+    border-radius: 8px;
+    background-color: #3862c4;
+    color: white;
+    font-weight: 600;
+}

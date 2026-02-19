@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.Popupboxcommand,
+.popupreduced {
+    border: 1px solid rgba(183, 174, 174, 0.578);
+    height: 410px;
+    width: 270px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    position: relative;
+    margin-left: 100px;
+    z-index: 20099;
+    background-color: white;
+
+}
+
+.photo-gift-container {
+    border: 1px solid #e532127c;
+    height: 140px;
+    width: 140px;
+    top: -70px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    position: absolute;
+    cursor: pointer;
+    box-shadow: -3px 2px 22px -11px rgba(0,0,0,0.58);
+    -webkit-box-shadow: -3px 2px 22px -11px rgba(0,0,0,0.58);
+    -moz-box-shadow: -3px 2px 22px -11px rgba(0,0,0,0.58);
+}
+
+.photo-gift-container img {
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+}
+
+.title-pop-up,
+.text-popup {
+    text-align: center;
+    padding: 90px 20px 0 20px;
+    font-family: "gotham";
+    font-weight: 800;
+    color: #FF0000;
+}
+
+.title-pop-up {
+    font-family: "Gothambold";
+    font-size: 1.6em;
+}
+
+.text-popup {
+    color: black;
+    padding-top: 0;
+}
+
+.price-allboxes {
+    border: 1px solid #E53312;
+    padding: 12px;
+    font-family: "Gotham";
+    border-radius: 10px;
+    font-weight: 800;
+    background-color: #E53312;
+    color: white;
+}
+
+.motif-pop-up-bottom {
+    position: absolute;
+    bottom: -10px;
+    width: 320px;
+    left: -40px;
+    right: 0;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.reduce-pop-up {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    border: none;
+    background-color: transparent;
+    color: #E53312;
+    font-weight: 800;
+    font-size: 1.7em;
+}
+
+.popupreduced {
+    margin-bottom: -320px;
+    border: none;
+    background-color: transparent;
+    width: 120px;
+    transition: cubic-bezier();
+}

@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.slide {
+    width: 100%;
+    height: auto;
+    border: 1px hidden black;
+    display: flex;
+    position: relative;
+}
+
+.slide .navigation-bar {
+    max-height: 100%;
+    background-color: white;
+    z-index: 200;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    background-color: #f5f6fa;
+}
+
+.slide-container {
+    width: 100%;
+    height: auto;
+    border: 1px hidden black;
+}
+
+.slide-container .alert-message {
+    margin: 0 50px;
+}
+
+.title-slide-comp {
+    border: 1px hidden orange;
+    padding: 15px;
+    font-size: 1.9em;
+    font-weight: 600;
+    margin: 32px;
+    color: #0d2d82;
+}
+
+.form-slide {
+    border: 1px hidden blue;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+
+.label {
+    border: 1px hidden red;
+    width: 280px;
+    font-size: 1.1em;
+}
+
+.filds {
+    border: 1px solid #3862c4;
+    height: 55px;
+    width: 380px;
+    border-radius: 10px;
+}
+
+.filds.slide {
+    width: 775px;
+    margin: 0 0 4px;
+}
+
+.filds-form {
+    border: 1px hidden blue;
+    margin: 0 15px;
+    display: flex;
+    align-items: center;
+}
+
+.submit-button {
+    height: 50px;
+    width: 130px;
+    border: none;
+    background-color: none;
+    margin: 15px;
+    border-radius: 10px;
+    background-color: #f15a28;
+}
+
+.filds.paragraphe {
+    height: 200px;
+    box-sizing: border-box;
+    width: 775px;
+}
+
+.alert-message {
+    font-weight: 600;
+    margin: 0 55px;
+    line-height: 25px;
+}
+
+.icon-download .bx-cloud-download {
+    font-size: 5em !important;
+}
+
+.title-label {
+    color: #3862c4;
+    background-color: transparent !important;
+}
+
+.slide .label-input-file {
+    margin: 8px;
+}
+
+.filds-form.text-slide {
+    margin: 0 0 16px;
+    padding: 16px;
+}
+
+.label-input-file.slide {
+    width: 778px;
+    margin: 16px 0;
+}
+
+.filedownload-section {
+    border: 1px hidden red;
+    width: 100%;
+}
+
+@media screen and (max-width: 875px) {
+    .filds-form.text-slide {
+        padding: 16px;
+    }
+
+    .label-input-file.slide {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:652px) {
+    .filedownload-section {
+        width: 100%;
+    }
+
+    .form-slide {
+        margin: 20px;
+    }
+
+    .label-input-file.slide {
+        width: 100%;
+    }
+}

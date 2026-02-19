@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.Informationperso {
+    border: 1px hidden black;
+    min-height: auto;
+    width: 100%;
+    overflow-x: hidden; 
+}
+
+.form-information-container {
+    border: 1px hidden blue;
+    height: auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.information-commande-form {
+    border: 1px hidden orange;
+    width: 80%;
+    height: auto;
+}
+
+.div-input-information {
+    width: 100%;
+    border: 1px hidden orange;
+}
+
+.div-input-information input {
+    height: 60px;
+    width: 70%;
+    margin: 10px;
+    border: none;
+    border-bottom: 1px solid #E53312;
+    outline: none;
+}
+
+.text-form-information {
+    font-family: "Gotham";
+    font-size: 1.3em;
+    padding: 0 0 0 10px;
+    font-weight: 800;
+}

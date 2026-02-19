@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Koh Santepheap', serif;
+}
+
+.command-item {
+    border: 1px hidden red;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: auto;
+    width: 100%;
+    padding: 8px;
+    font-size: 1em;
+}
+
+.input-qte {
+    width: 40px;
+    border: 1px solid rgb(157, 151, 151);
+}
+
+.delete-button-cart {
+    border: none;
+    background-color: transparent;
+    color: red;
+}
+
+.total-cart {
+    border: 1px hidden black;
+    padding: 8px;
+    width: 100%;
+    height: auto;
+    font-weight: 800;
+    font-size: 1.1em;
+    color: #37ab59;
+    margin: 4px 0;
+}
+
+.validate-command-button {
+    border: 1px hidden #871420;
+    background: #37ab59;
+    color: white;
+    padding: 8px;
+    font-size: 0.9em;
+    border-radius: 8px;
+    margin: 8px 0;
+}
+
+@media screen and (max-width:450px){
+    .delete-button-cart {
+        margin: 10px;
+    }
+}

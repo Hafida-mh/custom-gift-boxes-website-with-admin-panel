@@ -1,0 +1,230 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.command-container {
+    border: 1px hidden black;
+    max-height: 100%;
+    width: 100%;
+    display: flex;
+}
+
+.command-content {
+    width: 100%;
+    min-height: 100vh;
+}
+
+/* Pagination */
+.pagination-container {
+    border: 1px hidden blue;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pagination {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px hidden black;
+    min-width: 200px;
+}
+
+.nxtButton,
+.prevButton {
+    text-decoration: none;
+    color: black;
+    margin: 10px;
+}
+
+.paginationBtns {
+    word-spacing: 50px;
+    color: red;
+}
+
+.command-container .navigation-bar {
+    max-height: 100%;
+    z-index: 200;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    background-color: #f5f6fa;
+}
+
+.command-container .command-title {
+    border: 1px hidden orange;
+    padding: 55px;
+    font-size: 1.9em;
+    font-weight: 600;
+    color: #0d2d82;
+}
+
+.class {
+    background-color: #d6f0bae3;
+    pointer-events: none;
+}
+
+.filtre-buttons-container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.filter-button {
+    margin: 8px;
+    padding: 8px;
+    border-radius: 8px;
+    background-color: #dee6f6;
+    border: 1px solid #3862c4;
+}
+
+.filter-button:hover {
+    background-color: #3862c4;
+    color: white;
+}
+
+.table-commands .canceled {
+    /* background-color: rgb(231, 137, 137);*/
+    pointer-events: none;
+    background-color: #f9e0e0;
+}
+
+.modal-facture {
+    border: 1px hidden blue;
+    width: 100%;
+}
+
+.commande-list-item {
+    border: 1px solid #96aee7;
+    padding: 12px;
+    border-radius: 35px;
+    margin: 4px;
+    background-color: #dee6f6;
+}
+
+.confirm-buttons button {
+    width: 100%;
+    border: none;
+    background-color: transparent;
+    margin: 4px;
+}
+
+.fa-circle-check,
+.fa-circle-xmark {
+    background-color: transparent;
+    color: rgb(74, 193, 74);
+    font-size: 1.3em;
+}
+
+.fa-circle-xmark {
+    color: red;
+}
+
+.qte-section {
+    color: #f15a28;
+    font-weight: 600;
+    background-color: #dee6f6;
+}
+
+.disable-buttons .fa-regular,
+#disable-trush-buttons .fa-trash-can {
+    color: gray;
+}
+
+.disable-action-button {
+    padding: 4px;
+    border: 1px solid rgb(204, 197, 197);
+    background-color: rgb(204, 197, 197);
+    border-radius: 8px;
+    width: 46px;
+    margin: 3px;
+}
+
+/* GENERATE TICKETS */
+
+.generate-tiket,
+.generate-tikets-button {
+    padding: 4px;
+    border: 1px solid #96aee7;
+    background-color: transparent;
+    border-radius: 8px;
+    width: 46px;
+    margin: 3px;
+}
+
+.generate-tikets-button {
+    padding: 8px;
+    margin: 24px;
+    border: 1px hidden #96aee7;
+    background-color: transparent;
+    border-radius: 8px;
+    background-color: #3862c4;
+    color: white;
+    font-weight: 600;
+}
+
+/* MODAL FACTURE*/
+
+.command-container .modal-facture {
+    border: none;
+}
+
+.modal-facture .modal-content,
+.modal-ticket .modal-content {
+    border: none;
+}
+
+.modal-facture .modal-header,
+.modal-ticket .modal-header {
+    border-bottom: none;
+}
+
+.modal-ticket {
+    background-color: aliceblue;
+}
+
+@media screen and (max-width : 950px) {
+    .command-container .table-commands {
+        width: 100%;
+        overflow: auto;
+    }
+
+    .command-container .table-allcommands {
+        width: 1200px;
+        overflow-x: auto;
+    }
+
+}
+
+@media screen and (max-width : 657px) {
+    .command-container {
+        overflow: hidden;
+    }
+
+    .command-container .table-allcommands {
+        margin: 20px;
+    }
+
+    .command-container .command-title {
+        margin: 30px;
+    }
+
+    .generate-tikets-button {
+        margin: 45px;
+    }
+
+    .filtre-buttons-container  {
+        flex-direction: column;
+        align-items: flex-start;
+        margin: 0 40px;
+    }
+
+    .filter-button {
+        width: 170px;
+    }
+}

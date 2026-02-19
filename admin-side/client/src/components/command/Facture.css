@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.Facture {
+    border: 1px hidden black;
+    height: auto;
+    width: 100%;
+}
+
+.first-section {
+    border: 1px hidden orange;
+    height: auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.infos-container {
+    border: 1px hidden orange;
+    height: auto;
+    width: auto;
+}
+
+.logo-facture {
+    border: 1px hidden orange;
+    height: 210px;
+    width: 210px;
+}
+
+.logo-facture img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+
+.info-company,
+.info-client {
+    margin: 20px;
+}
+
+.Ttile-facture h2 {
+    text-align: center;
+    margin: 25px;
+}
+
+.table-billing {
+    padding: 16px;
+}
+
+.facture-container {
+    border: 1px hidden rgb(180, 170, 170);
+    border-radius: 4px;
+}
+
+.export-toExcel-buttton,
+.print-buttton {
+    padding: 8px;
+    border: 1px solid #3862c4;
+    background-color: transparent;
+    border-radius: 8px;
+    background-color: #3862c4;
+    color: white;
+}
+
+.modal-facture {
+    background-color: aliceblue;
+}
+
+.facture-container h4 {
+    font-weight: 600;
+}
+
+.facture-container .billing-text {
+    padding: 20px;
+}

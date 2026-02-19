@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.categories-container,
+.categories-contennt {
+    border: 1px hidden black;
+    height: auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.categories-contennt {
+    width: 80%;
+}
+
+.skin-hair-section {
+    border: 1px hidden orange;
+    width: 50%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.card-care-treatment {
+    border: 1px solid #EFF6EF;
+    height: 200px;
+    width: 100%;
+    margin: 20px;
+    border-radius: 15px;
+    background-color: #EFF6EF;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px;
+    position: relative;
+}
+
+.card-care-treatment h2, .treatment-section h2 {
+    font-family: "Roboto", sans-serif;
+    font-size: 2em;
+    font-weight: 600;
+    color: #368D35;
+}
+
+.card-care-treatment button, .treatment-section button {
+    border: 1px solid #368D35;
+    padding: 8px;
+    border-radius: 5px;
+    background-color: transparent;
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    z-index: 1;
+}
+
+.card-care-treatment button:hover, .treatment-section button:hover {
+    background-color:  #368D35;
+    color: white;
+}
+
+
+.treatment-section {
+    border: 1px solid #EFF6EF;
+    height: 678px;
+    width: 50%;
+    margin: 20px;
+    border-radius: 15px;
+    background-color: #EFF6EF;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px;
+    position: relative;
+}
+
+.signature-card-categories {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    color: #d8e5d5;
+    font-family: "Dancing Script", cursive;
+    font-size: 2.6em;
+    padding: 0 20px 0 0;
+}
+
+/* IMAGES */
+.visage-img {
+    position: absolute;
+    right: 20px;
+    top :50px;
+    width: 8em;
+}
+
+.visage-img.shampoing {
+    right: 5px;
+}
+
+.visage-img.soin {
+    font-size: 2.2em;
+    top: 300px;
+}
+
+@media screen and (max-width: 992px) {
+    .categories-contennt {
+        flex-direction: column;
+    }
+
+    .treatment-section {
+        height: 200px;
+        width: 100%;
+    }
+
+    .skin-hair-section {
+        width: 100%;
+    }
+
+    .categories-contennt {
+        width: 89%;
+    }
+
+    .card-care-treatment, .treatment-section {
+        margin: 5px;
+    }
+
+    .visage-img.soin {
+        font-size: 1em;
+        top: 50px;
+        width: 8em;
+        right: 5px;
+    }
+
+    .signature-card-categories {
+        line-height: 0.7;
+        padding: 10px 10px 10px 10px;
+        top: 0;
+        font-size: 1.7em;
+
+    }
+    
+}

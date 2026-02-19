@@ -1,0 +1,292 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.landing-page-container {
+    border: 1px hidden red;
+    height: auto;
+    width: 100%;
+    display: flex;
+    font-family: 'Saira', sans-serif;
+    font-weight: 600;
+    position: relative;
+}
+
+.landing-page-container .alert-message {
+    margin: 0 35px;
+    display: none;
+}
+
+.landing-page-container .navigation-bar {
+    max-height: 100%;
+    z-index: 200;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    background-color: #f5f6fa;
+}
+
+.landing-page-content {
+    border: 1px hidden blue;
+    height: auto;
+    width: 100%;
+}
+
+/* Title */
+.landing-page-title-container {
+    border: 1px hidden red;
+    height: auto;
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    flex-direction: column;
+    padding: 24px;
+    line-height: 8px;
+}
+
+.icon-grid-container {
+    background-color: #EEF4FF;
+}
+
+.landing-page-title-container h2 {
+    font-size: 3.2em;
+    font-family: 'Saira', sans-serif;
+    font-weight: 500;
+    padding: 28px;
+    color: #0d2d82;
+}
+
+.landing-page-title-container h2 .emoji-cup {
+    font-size: 0.5em;
+}
+
+.landing-page-title-container p {
+    font-size: 1.1em;
+    font-family: 'Saira', sans-serif;
+    font-weight: 500;
+}
+
+/* Statistic section */
+.global-statistiques-container,
+.performance {
+    border: 1px hidden red;
+    height: auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 32px;
+}
+
+.global-statistiques,
+.stat-performance,
+.stockstatut-container {
+    border: 1px hidden blue;
+    height: auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.box-stat {
+    border: 1px solid #c5d2ef;
+    height: 220px;
+    width: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 16px;
+    box-shadow: 0px 10px 8px -3px rgba(0, 0, 0, 0.1);
+    margin: 15px;
+}
+
+.stat-title {
+    font-size: 2em;
+    font-weight: 500;
+    background-color: transparent;
+}
+
+.stat-number {
+    font-size: 2.1em;
+    font-weight: 500;
+    color: #09227A;
+    background-color: transparent;
+}
+
+/* Performance */
+.performance {
+    border: 1px hidden green;
+    height: auto;
+    width: 100%;
+}
+
+.performance-container {
+    border: 1px hidden blue;
+    height: auto;
+    width: 100%;
+    text-align: left;
+}
+
+.performance-container h4 {
+    font-weight: 500;
+    font-family: 'Saira', sans-serif;
+    padding: 28px;
+    color: #f15a28;
+}
+
+.box-stat h3 {
+    font-size: 1.6em;
+}
+
+.cancel-order {
+    background-color: #FFEFEF;
+}
+
+.cancel-order .stat-number {
+    color: red;
+}
+
+.validate-order {
+    background-color: #F9FFF1;
+}
+
+.validate-order .stat-number {
+    color: green;
+}
+
+.new-order {
+    background-color: #EEF4FF;
+}
+
+/* STOCK STATUT*/
+.stockstatut-container {
+    flex-direction: column;
+    padding: 28px;
+}
+
+.stockstatut-container h4 {
+    text-align: left;
+    padding: 24px;
+    width: 100%;
+    line-height: 5px;
+    color: red;
+}
+
+.stockstatut-content {
+    border: 1px hidden red;
+    height: auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 4px;
+}
+
+.income {
+    background-color: #09227A;
+    color: white;
+    line-height: 20px;
+    width: 450px;
+    margin: 5px;
+}
+
+.income .stat-number {
+    color: #FFD2C3;
+}
+
+.stockstatut-container .table {
+    width: 500px;
+    font-size: 1.1em;
+    margin: 20px;
+    margin: 12px
+}
+
+.td-left,
+.th-left {
+    text-align: left;
+    font-weight: 500;
+    width: auto;
+}
+
+.td-right,
+.th-right {
+    text-align: right;
+    font-weight: 500;
+}
+
+.table .qte-left {
+    color: red;
+    font-weight: 500;
+}
+
+.table-state-product {
+    padding: 28px;
+}
+
+@media screen and (max-width:992px) {
+    .stockstatut-content {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width:652px) {
+    .stockstatut-container .table {
+        width: 100%;
+    }
+
+    .income {
+        width: 260px;
+        padding: 15px;
+    }
+
+    .landing-page-container {
+        position: relative;
+    }
+
+    .stockstatut-container {
+        border: 1px hidden blue;
+        padding: 0;
+    }
+
+    .stockstatut-content {
+        border: 1px hidden red;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: center;
+    }
+
+    .navigation-bar {
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        left: 0;
+    }
+}
+
+@media screen and (max-width:458px) {
+    .box-stat {
+        margin: 24px;
+    }
+
+    .box-stat h3 {
+        font-size: 1.5em;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:320px) {
+    .stockstatut-container h4 {
+        line-height: 25px;
+    }
+
+    .landing-page-container .alert-message {
+        margin: 0 35px;
+        display: block;
+    }
+}

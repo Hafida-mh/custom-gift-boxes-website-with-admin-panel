@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.notification-container {
+    border: 1px solid rgb(230, 228, 251);
+    height: 300px;
+    width: 280px;
+    overflow-x: hidden;
+    background-color: red;
+}
+
+.notification-content {
+    border: 1px solid #F2EAEA;
+    width: 100%;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow-y: scroll;
+}
+
+.notification-box {
+    border: 1px solid blue;
+    height: 100%;
+    width: 100%;
+    margin: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.notification-items {
+    border: 1px hidden red;
+    height: auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.circle-number {
+    border: 1px hidden black;
+    height: 50px;
+    width: 50px;
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 900;
+    background-color: #E7F0FE;
+    color: red;
+}
+
+.command-info {
+    text-align: left;
+    font-size: 0.79em;
+    padding: 8px;
+}
+
+.email-client {
+    font-weight: 700;
+}
+
+.total-command-client {
+    font-weight: 600;
+    color: blue;
+}
+
+.date-command {
+    border: 1px hidden red;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 0.72em;
+    font-weight: 700;
+    color: #7D7A7A;
+}
+
+/* Customise scrollbar */
+::-webkit-scrollbar {
+    width: 0.4px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: blue; 
+    border-radius: 4px;
+  }
+
+@media screen and (max-width: 337px) {
+    .notification-container {
+        border: 1px solid rgb(230, 228, 251);
+        height: 300px;
+        width: 120px;
+        overflow: auto;
+        overflow-x: hidden;
+    }
+    .notification-box {
+        width: 80%;
+        
+    }
+   
+}

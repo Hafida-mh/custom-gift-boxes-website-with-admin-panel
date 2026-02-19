@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.email-container {
+    border: 1px hidden black;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    position: relative;
+    overflow-x: hidden;
+    background-color: red;
+}
+
+.email-container .navigation-bar {
+    max-height: 100%;
+    background-color: white;
+    z-index: 200;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    background-color: #f5f6fa;
+}
+
+.email-elements {
+    width: 100%;
+}
+
+.form-email {
+    border: 1px hidden red;
+    height: auto;
+    width: 100%;
+    padding: 36px;
+}
+
+.form-email-container {
+    border: 1px hidden black;
+    width: 100%;
+    margin: 20px;
+}
+
+.title-email-container {
+    border: 1px hidden orange;
+    padding: 25px;
+    font-size: 1.9em;
+    font-weight: 600;
+    margin: 28px;
+    color: #0d2d82;
+}
+
+.email-container .form-email .filds.email {
+    margin: 8px;
+    width: 590px;
+}
+
+.email-container .form-email  .filds.email.selector {
+    width: 590px;
+    background-color: #6484c4;
+}
+
+.filds.message {
+    height: 250px;
+    width: 400px;
+}
+
+@media screen and (max-width: 646px) {
+    .filds, .filds.email {
+        width: 100%;
+    }
+
+    .email-container .form-email .filds.email {
+        width: 100%;
+    }
+
+    .email-container #select {
+        width: 100%;
+    }
+}

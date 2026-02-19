@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+
+}
+
+.advantages {
+    border: 1px hidden blue;
+    height: auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+/* NOTIFICATION */
+.notification-advantages {
+    height: auto;
+    width: 100%;
+    border: 1px hidden red;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    z-index: 20000;
+}
+
+.notification-advantages-container {
+    height: 150px;
+    width: 150px;
+    border: 1px solid red;
+    margin: 16px;
+    z-index: 20000;
+}
+
+.notification-img {
+    height: 122px;
+    width: auto;
+    border: 1px hidden red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.notification-advantages-container img {
+    height: 122px;
+    width: 122px;
+    transform: rotate(90deg);
+    object-fit: cover;
+    border: 1px hidden blue;
+}
+
+.title-advantage {
+    width: 100%;
+    text-align: center;
+    font-weight: 400;
+    color: #368D35;
+    font-weight: 700;
+    font-family: "Roboto", sans-serif;
+
+}
+
+/* CARD */  
+.card-container, .card-container-box {
+    border: 1px hidden orange;
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card-container-box {
+    margin: 16px;
+}
+
+.card-content {
+    border: 1px hidden rgb(182, 191, 182);
+    height: auto;
+    width: 280px;
+    margin: 15px;
+    border-radius: 10px;
+    background-color: #f0f6ef;
+    z-index: 300000;
+}
+
+.card-img {
+    border: 1px hidden black;
+    height: 150px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-img-content {
+    border: 1px hidden blue;
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.card-img-content img {
+    width: 80px;
+    height: 80px;
+   /* border-radius: 50%;*/
+    object-fit: fill;
+}
+
+.card-title {
+    border: 1px hidden red;
+    width: 100%;
+    text-align: center;
+}
+
+.descriptif {
+    padding: 10px;
+    letter-spacing: 1px;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+
+}
+
+@media screen and (max-width: 961px) {
+    .advantages {
+        border: 1px hidden blue;
+        height: auto;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin-top: 0;
+    }
+}
+
+@media screen and (max-width : 374px) {
+    .advantages h1 {
+        font-size: 3em;
+        width: 100%;
+    }
+}

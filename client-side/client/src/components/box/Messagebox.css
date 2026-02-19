@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.Messagebox {
+    border: 1px hidden black;
+    min-height: 100vh;
+    width: 100%;
+    overflow-x: hidden;
+    position: relative;
+}
+
+.tabs-container-messaging-box {
+    border: 1px hidden red;
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.form-message {
+    border: 1px hidden blue;
+    height: auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.text-area-input{
+    height: 290px;
+    width: 920px;
+    border: 1px solid #E77068;
+    font-size: 1.1em;
+    outline: none;
+}
+
+.form-message h5 {
+    text-align: left;
+    border: 1px hidden orange;
+    width: 100%;
+    padding: 35px 0 0px 15px;
+    font-family: "Gotham";
+    font-weight: 800;
+    font-size: 1.1em;
+}
+
+.tabs-container-messaging-box  .tab-content>.active {
+    margin: 0;
+}
+
+/* RESPONSIVE */
+@media screen and (max-width : 992px) {
+    .form-message {
+        padding: 30px;
+    }
+    .text-area-input{
+        width: 100%;
+    }
+
+    .form-message h5 {
+        padding: 15px 0PX 0px 0px;
+    }
+
+    .tabs-container-messaging-box .nav-item {
+        display: block;
+    }
+
+    .Messagebox  h2 {
+        font-size: 2em;
+    }
+}
+
+@media screen and (max-width : 425px) {
+    
+}

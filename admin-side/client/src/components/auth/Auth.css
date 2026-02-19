@@ -1,0 +1,270 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
+.authentification {
+    border: 1px hidden black;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.authentification-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px hidden black;
+    height: 100vh;
+    width: 100%;
+    margin: 16px;
+}
+
+.contact-etadjir-auth-container  {
+    height: auto;
+    width: auto;
+    background-color: #3862c4;
+}
+
+.contact-etadjir-auth-container a{
+    background-color: #3862c4;
+    color : white;
+    text-decoration: none;
+    font-size: 1.6em;
+}
+
+.contact-etadjir-auth-container i {
+    background-color: #3862c4;
+    color:white;
+    font-size: 1em;
+}
+
+.form-container, .ad-container {
+    border: 1px hidden red;
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ad-content {
+    border: 1px hidden blue;
+    height: 100%;
+    width: 100%;
+    margin: 50px;
+    border-radius: 10px;
+    background-color: #3862c4;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+.ad-content .ad-title {
+    background-color: #3862c4;
+}
+
+.ad-content .ad-title h2 {
+    background-color: #3862c4;
+    text-align: center;
+    color: white;
+    padding: 20px;
+    font-size: 3em;
+    font-weight: 600;
+}
+
+.ad-content .logo-section {
+    border: 1px solid #3862c4;
+    height: 180px;
+    width: 180px;
+    background-color: #3862c4;
+}
+
+.ad-content .logo-section img {
+    object-fit: cover;
+    border-color:#3862c4;
+    height: 100%;
+    width: 180px;
+}
+
+.ad-content .help-center-section {
+    border: 1px hidden red;
+    width: 100%;
+    height: auto;
+    background-color: #3862c4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ad-content .help-center-section div{
+    margin: 44px;
+    padding: 20px;
+    background-color: #3862c4;
+    color: white;
+    font-size: 1.1em;
+    font-weight: 600;
+    border: 2px solid white;
+    border-radius: 8px;
+}
+
+.ad-content .help-center-section span {
+    background-color: #3862c4;
+    text-decoration: underline;
+    font-weight: 600;
+}
+
+/* FORM */
+.form-container {
+    flex-direction: column;
+}
+
+.form-content {
+    border: 1px solid rgb(208, 204, 200);;
+    height: auto;
+    width: auto;
+    padding: 70px;
+    border-radius: 8px;
+}
+
+.input-form {
+    border: 1px solid gray;
+    height: 50px;
+    width: 320px;
+    margin: 10px;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.login-button-container {
+    border: 1px solid #3862c4;
+    height: 50px;
+    width: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    margin: 10px;
+    background-color: #3862c4;
+}
+
+.login-button-container button {
+   background-color: transparent;
+   border: none;
+   width: 100%;
+   height: 100%;
+   border-radius: 5px;
+   color: white;
+}
+
+.form-cntainer-title, .forget-pw {
+    margin: 10px;
+}
+
+.form-cntainer-title h3 {
+    font-weight: 600;
+}
+
+.forget-pw {
+    text-decoration: underline;
+}
+
+.form-content.key {
+    flex-direction: row;
+
+}
+
+.form-content.key h3{
+    font-weight: 600;
+    margin: 10px;
+}
+
+.authentification-container .title-container {
+    text-align: center;
+    margin : 24px;
+    font-weight: 600;
+}
+
+.helpcenter-mobile-version {
+   padding: 40px;
+   background-color: #3862c4;
+   color: white;
+}
+
+.helpcenter-mobile-version div, .helpcenter-mobile-version div span {
+    background-color: #3862c4;
+    color: white;
+    font-size: 1.15em;
+ }
+
+ .helpcenter-mobile-version div span {
+    text-decoration: underline;
+    font-weight: 600;
+ }
+
+ .img-front {
+    width: 24em;
+    background-color: #3862c4;
+ }
+
+ .ad-img {
+    background-color: red;
+ }
+/* Responsive */
+@media screen and (max-width : 992px){
+    .ad-container {
+        display: none;
+    }
+
+    .authentification-container {
+        justify-content: center;
+        flex-direction: column;
+    }
+
+}
+
+@media screen and (min-width : 991px){
+    .authentification-container .title-container {
+        display: none;
+        text-align: center;
+        margin : 24px;
+    }
+
+    .helpcenter-mobile-version {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .form-container {
+        width: 100%;
+    }
+
+    .form-content {
+       width: 100%;
+       padding: 0px;
+    }
+    .input-form {
+        width: 250px;
+    }
+
+    .authentification-container {
+        margin: 0;
+    }
+
+    .authentification-container .title-container {
+        text-align: left;
+        margin : 16px;
+        font-weight: 600;
+    }
+
+.helpcenter-mobile-version {
+    padding: 16px;
+    background-color: #3862c4;
+    color: white;
+ }
+}

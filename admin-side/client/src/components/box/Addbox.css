@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.box-conntainer {
+    border: 1px hidden black;
+    width: 100%;
+    height: auto;
+}
+
+.box-conntainer .navigation-bar {
+    max-height: 100%;
+    background-color: white;
+    z-index: 200;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    background-color: #f5f6fa;
+}
+
+.addbox-conntainner {
+    border: 1px hidden red;
+    height: auto;
+    width: 100%;
+}
+
+.addbox-conntainner form {
+    border: 1px solid red;
+    width: 100%;
+    height: auto;
+    margin: 40px;
+}
+
+.filds.product.firstinput {
+    margin: 0 0 0 15px;
+}
+
+.filds.product.pricebox {
+    margin: 0 0 0 -1px;
+}
+
+.add-button-box {
+    border: none;
+    background-color: transparent;
+    text-align: center;
+    border: 1px hidden red;
+    height: auto;
+    margin: 5px 0 0 0;
+}
+
+.add-button-box .bx-plus-circle {
+    color: #0d2d82;
+    font-size: 2em;
+}
+
+.box-conntainer .input-img-product .label-input-file {
+    margin: 16px 8px 8px 16px;
+}
+
+.list-color-container.add-box {
+    justify-content: flex-start;
+    margin: 16px 0 0 16px;
+}
+
+/* RESPONSIVE */
+@media screen and (max-width:375px) {
+    .box-conntainer .filds.product {
+        margin: 11px 15px;
+    }
+
+    .box-conntainer .filds.product.color {
+        width: 200px;
+        margin-left: 0;
+    }
+}

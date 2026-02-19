@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/maboxalgerie/static/css/main.3120ff79.css",
+    "main.js": "/maboxalgerie/static/js/main.99eee418.js",
+    "static/js/787.c4e7f8f9.chunk.js": "/maboxalgerie/static/js/787.c4e7f8f9.chunk.js",
+    "static/media/image-presentation-maboxalgerie.png": "/maboxalgerie/static/media/image-presentation-maboxalgerie.f58dabad44175013036a.png",
+    "static/media/motif-shop-maboxalgerie.png": "/maboxalgerie/static/media/motif-shop-maboxalgerie.67bbc4a6448a4d0ff761.png",
+    "static/media/motif-workshop.png": "/maboxalgerie/static/media/motif-workshop.a60b3623c85c1508a6ac.png",
+    "static/media/motif-sav-section.png": "/maboxalgerie/static/media/motif-sav-section.5cb02354649514767a40.png",
+    "static/media/mabox-motif.png": "/maboxalgerie/static/media/mabox-motif.aea32a52f59508aab1da.png",
+    "static/media/motif-popup-box.png": "/maboxalgerie/static/media/motif-popup-box.73ec8d28bec72175ca94.png",
+    "static/media/leaf-second-motif-sav.png": "/maboxalgerie/static/media/leaf-second-motif-sav.807f0ed57018347967fd.png",
+    "static/media/img-gift-box.png": "/maboxalgerie/static/media/img-gift-box.af4b17d4e2a47f5791cb.png",
+    "static/media/box-special-img.png": "/maboxalgerie/static/media/box-special-img.c6d53edcd01cb4197512.png",
+    "static/media/box-personnalise.png": "/maboxalgerie/static/media/box-personnalise.f1ccf83c4251cc855caf.png",
+    "static/media/green-motif-sav.png": "/maboxalgerie/static/media/green-motif-sav.8267f888fde148c358f1.png",
+    "static/media/Gotham Book.otf": "/maboxalgerie/static/media/Gotham Book.e37cf59954e32a3f5401.otf",
+    "static/media/Book-Bold.otf": "/maboxalgerie/static/media/Book-Bold.8caf7f606c7e11dadfaa.otf",
+    "static/media/logo-maboxalgerie.png": "/maboxalgerie/static/media/logo-maboxalgerie.9189137b80d6e820ed4d.png",
+    "static/media/politique-de-confidentialite.pdf": "/maboxalgerie/static/media/politique-de-confidentialite.4a57cb46903ae7324cea.pdf",
+    "static/media/delete-icon.png": "/maboxalgerie/static/media/delete-icon.8bc8702bbf521e0462db.png",
+    "static/media/visage.png": "/maboxalgerie/static/media/visage.94ba9708d65292944c59.png",
+    "static/media/onature-contact-page.jpg": "/maboxalgerie/static/media/onature-contact-page.0dec99178cdbb9cca843.jpg",
+    "static/media/soin-naturel.png": "/maboxalgerie/static/media/soin-naturel.531888cdf64ec9caa886.png",
+    "static/media/savon.png": "/maboxalgerie/static/media/savon.7fe9c69806ed3d4a4a97.png",
+    "static/media/logo-bayer.png": "/maboxalgerie/static/media/logo-bayer.d39a6f9c7b414be122b6.png",
+    "static/media/shampooing.png": "/maboxalgerie/static/media/shampooing.06a9ba0c4af37dfc429b.png",
+    "static/media/axa-logo.png": "/maboxalgerie/static/media/axa-logo.7eb868c9026693e00917.png",
+    "static/media/new-mabox-newbox-icon.png": "/maboxalgerie/static/media/new-mabox-newbox-icon.09274d0d700b9190b3f1.png",
+    "static/media/logo.svg": "/maboxalgerie/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/maboxalgerie/index.html",
+    "main.3120ff79.css.map": "/maboxalgerie/static/css/main.3120ff79.css.map",
+    "main.99eee418.js.map": "/maboxalgerie/static/js/main.99eee418.js.map",
+    "787.c4e7f8f9.chunk.js.map": "/maboxalgerie/static/js/787.c4e7f8f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3120ff79.css",
+    "static/js/main.99eee418.js"
+  ]
+}

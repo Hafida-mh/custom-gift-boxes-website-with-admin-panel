@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Gotham";
+}
+
+.Resumecommand {
+    border: 1px hidden black;
+    min-height: auto;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.resumecommand-container {
+    border: 1px hidden blue;
+    height: auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.command-allinformation {
+    border: 1px hidden pink;
+    width: 60%;
+    height: auto;
+}
+
+.section-info {
+    font-size: 1.47em;
+    font-family: "Gotham";
+}
+
+.section-info div {
+    margin: 5px;
+}
+
+.detailbox {
+margin: 30px 0 0 0;
+}
+
+.qte-number {
+    background-color: #E53312;
+    margin: 3px;
+    
+    color: white;
+    text-align: center;
+    width: auto;
+    padding-right: 5px;
+    border-radius: 20px;
+}
+
+.product-per-box {
+    margin : 0 30px;
+}
+
+.product-per-box u {
+    color: #E53312;
+    font-family: "Gotham";
+    font-size: 0.8em;
+}
+
+.Resumecommand .total-command {
+color: #E53312;
+font-family: "Gothambold";
+font-size: 1.7em;
+}
+
+/* RESPONSIVE */
+@media screen and (max-width : 1024px ) {
+    .command-allinformation {
+        width: 90%;
+    }
+
+   .Resumecommand .main-title-box-product-choice {
+        font-size: 1.8em;
+    }
+    
+}

@@ -1,0 +1,228 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.Navbar {
+    border: 1px hidden black;
+    height: 120px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    background-color: #ECF6FE; 
+}
+
+.navbar-content {
+    border: 1px hidden black;
+    height: 80px;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    border: 1px hidden orange;
+    height: 120px;
+    width: 132.97px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo .logo-img {
+    height: 120px;
+    width: 132.97px;
+    object-fit: cover;
+    transform: scale(1.2);
+}
+
+.nav-item {
+    border: 1px hidden red;
+    height: 100%;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Gotham";
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+.nav-item .item {
+    margin: 12px;
+    font-size: 1.1em;
+    cursor: pointer;
+    text-decoration: none;
+    font-weight: 400;
+    font-family: "Gotham";
+    font-weight: 600;
+}
+
+.nav-item .item.shop {
+  background-color: #E53312;
+   padding: 2px 16px 2px 16px;
+   border-radius: 10px;
+   color: white;
+}
+
+.nav-item .link-item {
+    text-decoration: none;
+    color: black;
+}
+
+.buttons {
+    border: 1px hidden orange;
+    height: 100%;
+    width: auto;
+    display: flex;
+    align-items: center;
+}
+
+.buttons i {
+    font-size: 2em;
+    margin: 6px;
+    color: #cbc0d3;
+}
+
+.shop-container {
+    border: 1px solid white;
+    position: absolute;
+    bottom: 0;
+    top: 80px;
+    height: 400px;
+    width: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    z-index: 1;
+    background-color: white;
+}
+
+.nav-item {
+    text-decoration: none;
+    color: black;
+}
+
+.shop-content {
+    border: 1px hidden red;
+    height: 90%;
+    width: 97%;
+}
+
+.button-exit {
+    border: 1px hidden pink;
+    width: 95%;
+    text-align: right;
+    font-weight: 700;
+    background-color: transparent;
+    border: none;
+}
+
+.cart-button {
+    border: 1px hidden black;
+    height: 50px;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cart-button button {
+    height: 50px;
+    background-color: transparent;
+}
+
+/* Responsive NavBar */
+.display {
+    border: 1px hidden pink;
+    height: 150px;
+    width: 100%;
+    background-color: aqua;
+    margin-top: 10px;
+}
+
+/* RESPONSIVE */
+.navResponsive {
+    border: 1px hidden rgb(202, 197, 197);
+    height: auto;
+    width: 100%;
+    position: absolute;
+    top: 120px;
+    z-index: 20;
+    background-color: white;
+}
+
+.navResponsive .item {
+    font-size: 0.6em;
+    margin: 5px;
+    font-family: Gotham Book;
+    letter-spacing: 1px;
+}
+
+.navResponsive .link-item {
+    text-decoration: none;
+    color: black;
+}
+
+.buttons-responsive {
+    border: 1px hidden black;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.allbuttons {
+    border: 1px hidden orange;
+    height: auto;
+    width: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.allbuttons div {
+    margin: 3px;
+}
+
+.burger-button {
+    display: none;
+    font-size: 1.3em;
+    cursor: pointer;
+    z-index: 1;
+}
+
+@media screen and (max-width : 992px) {
+    .navResponsive,
+    .burger-button {
+        display: block;
+        font-size: 1.5em;
+    }
+
+    .nav-item,
+    .buttons {
+        display: none;
+    }
+
+    .logo {
+        justify-content: flex-start;
+    }
+
+    .nav-responnsive-item {
+        font-size: 1.4em;
+        padding: 20px;
+        border: 1px hidden green;
+        text-align: left;
+    }
+
+    .shop {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+}

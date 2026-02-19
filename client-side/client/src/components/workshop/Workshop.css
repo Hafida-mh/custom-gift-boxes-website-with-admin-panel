@@ -1,0 +1,182 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.Workshop {
+    border: 1px hidden black;
+    height: auto;
+    width: 100%;
+    position: relative;
+}
+
+.motif-workshop {
+    position: absolute;
+    top: 19px;
+    right: 0;
+    height: 420px;
+    width: 350px;
+    z-index: -23679;
+}
+
+.workshop-title {
+    width: 100%;
+    padding: 50px;
+    font-size: 4em;
+    font-family: "Gothambold";
+    text-align: center;
+    font-weight: 800;
+    color: #FECB3C;
+}
+
+.workshop-container {
+    border: 1px hidden pink;
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 8px;
+}
+
+.card-workshop {
+    border: 1px hidden red;
+    width: 90%;
+    height: auto;
+    border-radius: 20px;
+    display: flex;
+    align-items: flex-start;
+    background-color: #ede39619;
+    margin: 10px 0;
+}
+
+.img-card-workshop {
+    border: 1px hidden #FECB3C;
+    height: 320px;
+    width: 290px;
+    margin: 30px;
+    border-radius: 20px;
+}
+
+.img-card-workshop img {
+   object-fit: cover;
+   height: 320px;
+   width: 290px;
+   border-radius: 20px;
+}
+
+.card-workshop-information {
+    border: 1px hidden orange;
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 12px;
+}
+
+.card-workshop-information h2,
+.card-workshop-information h4 {
+    font-family: "Gotham";
+    padding: 4px;
+}
+
+.card-workshop-information h2 {
+    font-family: "Gothambold";
+}
+
+.card-workshop-information h4, .card-workshop-information h4 u {
+    font-size: 1.2em;
+}
+
+.discover-button {
+    border: 1px solid #FECB3C;
+    width: 120px;
+    padding: 8px;
+    background-color: #FECB3C;
+    color: white;
+    border-radius: 8px;
+    font-size: 1.15em;
+    font-weight: 800;
+    font-family: "Gotham";
+    margin: 0 0 10px 0;
+}
+
+.text-description-workshop {
+    width: 70%;
+    font-size: 1em;
+    font-family: "Gotham";
+}
+
+span {
+    text-decoration: none;
+}
+
+/*FORM REGISTER WORKSHOP */ 
+.form-workshop-container {
+    border: 1px hidden orange;
+    height: auto;
+    width: 100%;
+}
+
+.submit-workshop-registration {
+    border: 1px solid #FECB3C;
+    padding: 12px;
+    border-radius: 8px;
+    background-color: #FECB3C;
+    color: white;
+    margin: 5px 0px 5px 8px;
+}
+
+.modalworkshopbody {
+    border: 1px hidden red;
+    position: relative;
+    overflow: hidden;
+}
+
+.form-workshop-container .modalworkshopbody  .modal-header {
+    border-bottom: 1px solid #FECB3C;
+}
+
+.modal-title {
+    font-family: "Gothambold";
+}
+
+.modal-workshop .modal-content, .form-workshop-container input {
+   background-color: #fbf3df;
+}
+
+.modalworkshopbody  .motif-modal {
+    position: absolute;
+  bottom: -12px;
+    right: 0;
+    height: 180px;
+    width: 150px;
+    transform: rotate(90deg);
+}
+
+/* RESPONSIVE */
+@media screen and (max-width:768px) {
+    .img-card-workshop, .img-card-workshop img  {
+       display: none;
+    }
+
+    .text-description-workshop {
+        width: 100%;
+        text-align: justify;
+        padding: 0 10px 0 0;
+    }
+
+    .card-workshop-information  {
+        padding: 25px;
+    }
+
+    .motif-workshop {
+        display: none;
+    }
+
+    .workshop-title {
+        font-size: 3em;
+    }
+}

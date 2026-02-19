@@ -1,0 +1,168 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.delete-slide {
+    width: 100%;
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+
+.slide-card {
+    border: 1px hidden red;
+    height: auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin: 16px 0 0 20px;
+}
+
+.slide-card .caroussel {
+    border: 1px solid rgb(211, 207, 207);
+    height: 500px;
+    width: 90%;
+    position: relative;
+}
+
+.caroussel.delete-slide {
+    margin: 28px;
+}
+
+.caroussel-item .slide-img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.slide-card .caroussel .caroussel-item {
+    border: 1px hidden red;
+    background-color: red;
+    height: 100%;
+    color: black;
+    position: relative;
+}
+
+.caroussel-caption {
+    border: 1px hidden blue;
+    height: 350px;
+    text-align: left;
+    background-color: rgba(175, 171, 165, 0.3);
+}
+
+.caroussel-caption h1 {
+    text-align: left;
+    letter-spacing: 1px;
+}
+
+.caroussel-caption p {
+    font-size: 1.4em;
+    text-align: left;
+    padding: 10px;
+    letter-spacing: 1px;
+}
+
+.delete-button {
+    border: 1px solid red;
+    width: 40px;
+    height: 40px;
+    z-index: 200;
+    border-radius: 10px;
+    font-weight: 600;
+    position: absolute;
+    top: 32px;
+    right: 5px;
+    background-color: red;
+}
+
+.delete-button i {
+    font-size: 1.1em;
+    color: white;
+}
+
+.delete-slide h1 {
+    padding: 48px;
+    font-size: 1.9em;
+    font-weight: 600;
+    text-align: center;
+}
+
+.call-action {
+    border: 1px hidden red;
+    width: 120px;
+    height: 50px;
+    border-radius: 10px;
+    color: white;
+    font-weight: 600;
+    margin: 5px;
+    background-color: rgb(94, 206, 168);
+}
+
+.caroussel-caption h1,
+.caroussel-caption p,
+.caroussel-caption div,
+.carousel-indicators,
+.caroussel-caption a,
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+    background-color: transparent;
+}
+
+/*
+.slide-card img {
+    height: 250px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.detelte-button {
+    position: absolute;
+    top : 0;
+    right: 20px;
+    color: red;
+}
+*/
+
+.caroussel-caption {
+    width: 100%;
+    right: 0;
+    left: 0;
+    top:  30%;
+    bottom: 50%;
+    padding-bottom: 0;
+    padding-top: 0;
+    height: 300px;
+}
+
+.button-slide-discover {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media screen and (max-width: 648px) {
+    .delete-slide {
+        overflow-x: hidden;
+    }
+
+    .caroussel-caption {
+        width: 100%;
+        right: 0;
+        left: 0;
+        padding-bottom: 0;
+        padding-top: 0;
+        height: 100%;
+    }
+
+    .caroussel-caption h1 {
+        font-size: 1.3em;
+    }
+
+    .caroussel-caption p {
+        font-size: 1em;
+    }
+}

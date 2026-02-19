@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.feedback-container {
+    border: 1px hidden black;
+    height: 500px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 30px 0 0 0;
+    position: relative;
+}
+
+.feedback-container h1 {
+    font-size: 2.9em;
+    text-align: center;
+    font-family: "Gothambold";
+    font-weight: 400;
+}
+
+.caroussel-feedback {
+    height: 420px;
+    width: 100%;
+   /* background-color: #ECF6FE; mabox */
+   border-color: #cbc0d3;
+    margin: 20px 0 0 0;
+}
+
+.carousel-indicators {
+    z-index: 20000000;
+}
+
+[data-bs-theme=dark] .carousel .carousel-indicators [data-bs-target],
+[data-bs-theme=dark].carousel .carousel-indicators [data-bs-target] {
+    z-index: 677879878000000;
+    color: #E53312;
+}
+
+/* MOTIF LOGO MA BOX ALGERIE */
+.motif-logo-mabox,
+.motif-logo-mabox.left-side {
+    position: absolute;
+    right: 0;
+    top: 70px;
+    bottom: 0;
+    z-index: 1999;
+    height: 450px;
+    width: 310px;
+}
+
+.motif-logo-mabox.left-side {
+    left: 0;
+    transform: rotate(180deg);
+}
+
+.caroussel-item-feedback {
+   /* background-color: #ECF6FE;*/
+    border: 3px solid #cbc0d3;
+    height: 420px;
+}
+
+.caroussel-feedback .carousel-control-next,
+.carousel-control-prev {
+    height: 420px;
+    z-index: 20000000;
+}
+
+/* INNER FEEDBACK CAPTION */
+.inner-slide-feedback-container {
+    border: 1px hidden blue;
+    height: 350px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.naming-feedback-person {
+    border: 1px hidden red;
+    height: 120px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Gotham";
+}
+
+.logo-feedback-corporate {
+    border: 1px hidden black;
+    height: 120px;
+    width: 170px;
+}
+
+.logo-feedback {
+    height: 100%;
+    width: 110px;
+    object-fit: cover;
+}
+
+.name-position-feedback-person {
+    border: 1px hidden blue;
+    height: 120px;
+    width: auto;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    margin: 10px;
+    color: black;
+    font-family: "Gotham";
+    color: #E53312;
+}
+
+.feedback-text {
+    border: 1px hidden white;
+    height: 230px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+}
+
+.feedback-text p {
+    font-size: 1.4em;
+    padding: 10px;
+    font-family: "Gotham";
+}
+
+/* RESPONSIVE */
+@media screen and (max-width: 425px) {
+
+    .feedback-container,
+    .name-position-feedback-person,
+    .feedback-text {
+        height: auto;
+    }
+
+    .caroussel-item-feedback,
+    .caroussel-feedback {
+        height: 500px;
+    }
+
+    .inner-slide-feedback-container {
+        height: 450px;
+    }
+
+    .feedback-text p,
+    .naming-feedback-person {
+        font-size: 1em;
+        padding: 100px 0 0 0;
+    }
+
+    .motif-logo-mabox,
+    .motif-logo-mabox.left-side {
+        display: none;
+    }
+
+    .feedback-container h1 {
+        font-size: 2.1em;
+    }
+
+    .feedback-container {
+        margin: 0;
+    }
+}

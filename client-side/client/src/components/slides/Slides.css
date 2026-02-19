@@ -1,0 +1,218 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.Slides {
+    border: 1px hidden red;
+    height: 750px;
+    width: 100%;
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+    height: 750px;
+}
+
+.caroussel,
+.caroussel-item {
+    border: 1px hidden pink;
+    height: 750px;
+    width: 100%;
+}
+
+.caroussel,
+.caroussel-item .slide-img {
+    height: 750px;
+    width: 100%;
+    z-index: -4;
+}
+
+.caroussel .caroussel-caption {
+    height: 550px;
+    color: #37ab59;
+    text-align: center;
+    border: 1px hidden red;
+    margin: 20px 0;
+}
+
+.caroussel .caroussel-caption h1 {
+    font-size: 5em;
+    font-family: "Gothambold";
+    font-weight: 400;
+    color: #e53412;
+}
+
+.caroussel .caroussel-caption p {
+    font-size: 1.7em;
+    width: 100%;
+    font-family: "Gotham";
+    color: white;
+    font-weight: 800;
+}
+
+.slide-button {
+    border: 1px hidden black;
+    padding: 8px;
+    border-radius: 8px;
+    background-color: #e53412;
+    color: white;
+    font-size: 1.4em;
+}
+
+/*
+.slide-button a {
+    text-decoration: none;
+    color: white;
+}*/
+
+.caroussel.carousel.slide {
+    height: 100%;
+}
+
+.carousel-control-prev-icon {
+    z-index: 19999;
+    cursor: pointer;
+}
+
+
+/* à revoiiiiiiiiirr 
+.carousel-indicators {
+    background-color: aqua;
+    z-index: 10076655667;
+}
+
+.carousel-indicators button {
+    z-index: 10076655667;
+}
+*/
+
+.carousel-indicators {
+    display: none;
+}
+
+@media screen and (max-width : 842px) {
+    .caroussel .caroussel-caption h1 {
+        font-size: 3em;
+        width: 100%;
+    }
+
+    .caroussel .caroussel-caption p {
+        width: 100%;
+    }
+
+    .caroussel,
+    .caroussel-item {
+        border: 1px hidden pink;
+        height: 30em;
+        width: 100%;
+    }
+
+    .caroussel,
+    .caroussel-item .slide-img {
+        height: 30em;
+        width: 100%;
+        z-index: -4;
+    }
+
+    .carousel-control-next,
+    .carousel-control-prev {
+        height: 30em;
+    }
+}
+
+@media screen and (max-width : 768px) {
+    .caroussel .caroussel-caption {
+        height: 280px;
+    }
+
+    .caroussel .caroussel-caption p {
+        font-size: 1.1em;
+        width: 100%;
+    }
+
+    .caroussel,
+    .caroussel-item,
+    .Slides,
+    .caroussel-item .slide-img {
+        border: 1px hidden pink;
+        height: 25em;
+        width: 100%;
+    }
+
+    .carousel-control-next,
+    .carousel-control-prev {
+        height: 25em;
+    }
+}
+
+@media screen and (max-width : 500px) {
+    .caroussel .caroussel-caption p {
+        font-size: 0.95em;
+        width: 100%;
+        font-family: 'Montserrat', sans-serif;
+    }
+}
+
+@media screen and (max-width:460px) {
+    .caroussel .caroussel-caption p {
+        font-size: 0.9em;
+        width: 100%;
+    }
+
+    .caroussel,
+    .caroussel-item,
+    .Slides,
+    .caroussel-item .slide-img {
+        border: 1px hidden pink;
+        height: 15em;
+        width: 100%;
+    }
+
+    .carousel-control-next,
+    .carousel-control-prev {
+        height: 20em;
+    }
+
+    .caroussel .caroussel-caption h1 {
+        font-size: 1.5em;
+        width: 100%;
+    }
+
+    .slide-button {
+        margin-bottom: 50px;
+        font-size: 0.9em;
+        color: white;
+    }
+}
+
+@media screen and (min-width : 1649px) {
+
+    .caroussel,
+    .caroussel-item,
+    .Slides,
+    .caroussel-item .slide-img {
+        border: 1px hidden pink;
+        height: 1080px;
+        width: 100%;
+    }
+
+    .carousel-control-next,
+    .carousel-control-prev {
+        height: 1080px;
+    }
+}
+
+@media screen and (max-width : 425px) {
+    .caroussel .caroussel-caption {
+        height: 200px;
+    }
+    
+}
+
+@media screen and (max-width : 320px) {
+    .caroussel .caroussel-caption {
+        height: auto;
+        margin-bottom: -82px;
+    }
+}

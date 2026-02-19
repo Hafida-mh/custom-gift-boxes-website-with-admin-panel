@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Koh Santepheap', serif;
+}
+
+.validation-command {
+    border: 1px hidden black;
+    min-height: 100vh;
+    width: 100%;
+    overflow: hidden;
+}
+
+.form-validation-command {
+    border: 1px hidden red;
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.form-validation-container {
+    border: 1px hidden pink;
+    min-height: 100%;
+    width: 100%;
+    background-color: #e5f6ea;
+}
+
+.form-validation-container h1 {
+    text-align: center;
+    padding: 36px;
+    font-family: 'Koh Santepheap', serif;
+    font-weight: 900;
+    color: #37ab59;
+}
+
+.form-command {
+    border: 1px hidden blue;
+    height: auto;
+    width: 100%;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #e5f6ea;
+}
+
+.inputs-container {
+    border: 1px hidden green;
+    height: auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.inputs-container input,
+#selected-wilaya, textarea {
+    margin: 16px;
+    height: 60px;
+    width: 520px;
+    border-radius: 8px;
+    border: 1px solid rgba(0, 0, 0, 0.485);
+}
+
+
+#selected-wilaya, .inputs-container textarea {
+    width: 700px;
+}
+
+.inputs-container textarea {
+    height: 100px;
+}
+
+.form-validation-container h3 {
+    font-size: 3em;
+    text-align: center;
+    padding: 24px;
+    color: #37ab59;
+    font-weight: 900;
+}
+
+.validation-command-button {
+    width: 170px;
+    height: 50px;
+    padding: 8px;
+    font-size: 1.2em;
+    border: 1px hidden #EF8C24;
+    background: #37ab59;
+    border-radius: 8px;
+    color: white;
+}
+
+.validation-command-button-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 0 70px 0;
+}
+
+@media screen and (max-width : 568px) {
+    .inputs-container {
+       flex-direction: column;
+    }
+
+    #selected-wilaya, .inputs-container input, .inputs-container textarea {
+        width: 310px;
+    }
+
+    .validation-command {
+        overflow: auto;
+    }
+}

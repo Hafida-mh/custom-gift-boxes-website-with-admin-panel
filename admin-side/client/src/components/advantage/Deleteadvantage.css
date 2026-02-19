@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.delete-advantage {
+    border: 1px hidden red;
+    height: auto;
+    width: 100%;
+}
+
+.display-button {
+    border: 1px solid black;
+    height: 60px;
+    width: 230px;
+    background-color: transparent;
+
+}
+
+.button-container {
+    border: 1px hidden orange;
+    height: auto;
+    width: auto;
+    padding: 15px;
+}
+
+.feedback-cards {
+    border: 1px hidden blue;
+    height: auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.cards {
+    border: 1px solid rgb(225, 218, 218);
+    height: 450px;
+    width: 240px;
+    position: relative;
+}
+
+.cards h4 {
+    font-size: 1.3em;
+    padding: 20px;
+    text-align: center;
+    font-weight: 600;
+    color: black;
+}
+
+.para-descriptif {
+    font-size: 1.2em;
+    padding: 20px;
+    color: black;
+}
+
+.deleteadvantage {
+    border: 1px solid red;
+    height: 40px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+
+.deleteadvantage .deletebutton {
+    height: 100%;
+    width: 100%;
+    background-color: red;
+    color: white;
+    border: none;
+   
+}
+
+.icon-img {
+    width: 60px;
+    height: 60px;
+}
+
+.icon-section {
+    border: 1px hidden orange;
+    height: auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.display-button {
+    margin: 36px;
+}

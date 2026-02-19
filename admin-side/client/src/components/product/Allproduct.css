@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.allproduct-container {
+    border: 1px hidden black;
+    height: auto;
+    width: 100%;
+}
+
+.allproduct-container .table-allproduct {
+    margin: 20px;
+    overflow: auto;
+}
+
+.allproduct-container .table-show-allproduct {
+    margin: 40px;
+}
+
+.allproduct-container .table-header {
+    background-color: #dee6f6;
+}
+
+.allproduct-container  .pagination.allproduct {
+    border: 1px hidden red;
+    margin: 60px;
+}
+
+.action-buttons {
+    padding: 4px;
+    border: 1px solid #96aee7;
+    background-color: transparent;
+    border-radius: 8px;
+    margin: 4px;
+}
+
+.modalchangeproduct .filds-form{
+margin: 8px;
+}
+
+.modalchangeproduct .filds.paragraphe {
+    width: 380px;
+}
+
+.modalchangeproduct .radio-buttons {
+    padding: 4px;
+}
+
+.submit-button-edit-product {
+    padding: 16px;
+    border: 1px solid #f15a28;
+    width: auto;
+    height: auto;
+    border-radius: 8px;
+    background-color: #f15a28;
+    color: white;
+}
+
+.alert-message {
+    padding: 24px;
+}
+
+.modal-title {
+    color: #0d2d82;
+}

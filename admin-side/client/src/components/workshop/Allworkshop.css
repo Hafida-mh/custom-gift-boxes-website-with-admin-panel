@@ -1,0 +1,14 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.Allworkshop {
+    border: 1px hidden black;
+    height: auto;
+    width: 100%;
+}
+
+.table-allproduct{
+    margin: 60px;
+}

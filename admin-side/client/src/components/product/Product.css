@@ -1,0 +1,333 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.Product-container {
+    border: 1px hidden black;
+    height: auto;
+    width: 100%;
+    display: flex;
+    position: relative;
+}
+
+.Product-container .navigation-bar {
+    max-height: 100%;
+    background-color: white;
+    z-index: 200;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    background-color: #f5f6fa;
+}
+
+.Product-container-content {
+    border: 1px hidden black;
+    height: auto;
+    width: 100%;
+}
+
+.main-title {
+    border: 1px hidden orange;
+    padding: 15px;
+    font-size: 1.9em;
+    font-weight: 600;
+    margin: 40px;
+    color: #0d2d82;
+}
+
+/* PRODUCT HEADER */
+.Product-container-content .product-header {
+    border: 1px hidden orange;
+    margin: 0 44px;
+}
+
+.product-header,
+.dropdown-button {
+    border: 1px hidden black;
+    height: auto;
+    width: 95%;
+    padding: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 16px;
+}
+
+.dropdown-button {
+    justify-content: flex-end;
+   
+}
+
+.dropdown-button #dropdown-basic i, #dropdown-basic {
+    background-color: #0d2d82;
+}
+
+#dropdown-basic {
+    border: 1px solid #0d2d82;
+}
+
+.add-product-button,
+.submit-button {
+    padding: 8px;
+    border: 1px hidden #96aee7;
+    background-color: transparent;
+    border-radius: 8px;
+    background-color: #f15a28;
+    color: white;
+    font-weight: 600;
+}
+
+.burger-button-list {
+    background-color: transparent;
+    color: #3862c4;
+    border: none;
+    font-size: 1.6em;
+    margin: 24px;
+}
+
+/* Input File */
+.form-product {
+    margin: 40px;
+}
+
+.add-file-input {
+    border: 1px solid black;
+    background-color: #96aee7;
+    margin: 16px;
+    height: 50px;
+    width: 320px;
+    border-radius: 10px;
+}
+
+.Product-container #file-upload-button {
+    background-color: red;
+}
+
+.filds-form.details-product{
+    margin: 0 8px;
+}
+
+.file-upload-button {
+    background-color: #96aee7;
+    height: 50px;
+    width: 320px;
+    border-radius: 10px;
+}
+
+input {
+    margin: 5px;
+}
+
+.filds-form.availability {
+    margin: 8px;
+}
+
+.filds+.filds {
+    margin: 16px;
+}
+
+input[type=file] {
+    display: none;
+}
+
+.label-input-file {
+    border: 1px hidden red;
+    height: auto;
+    width: 775px;
+    padding: 16px;
+    margin: 8px 8px 8px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 8px;
+    background-color: #dee6f6;
+}
+
+.label-input-file.product-img-input {
+    margin: 40px 0px 0px 100px;
+}
+
+.input-img-product.img-file {
+    margin: 0 0 0 8px;
+}
+
+.bx-cloud-download {
+    font-size: 3em !important;
+    background-color: transparent;
+    color: #f15a28;
+}
+
+.icon-download,
+.file-name,
+.label-import-file-name {
+    background-color: transparent;
+}
+
+.label-import-file-name {
+    color: #3862c4;
+}
+
+.Product-container .modal-add-products {
+    border: 1px hidden red;
+    height: 100%;
+    width: 100%;
+    background-color: aqua;
+}
+
+.Product-container .modal-drop-file {
+    background-color: aqua;
+}
+
+.modal-ticket.product-file .modal-content {
+    border: 1px hidden red;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-ticket.product-file .modal-content h3 {
+    text-align: center;
+}
+
+.modal-ticket.product-file .modal-content .label-input-file {
+    border: 1px hidden red;
+    width: 100%;
+    margin: 0;
+}
+
+.button-add-products {
+    border: 1px solid #3862c4;
+    padding: 8px;
+    margin-top: 8px;
+    border-radius: 8px;
+    background-color: #3862c4;
+    color: white;
+}
+
+.modal-ticket.product-file .modal-content .btn-close {
+    text-align: left;
+}
+
+.submit-button.product {
+    margin: 8px 8px 8px 16px;
+}
+
+/* ALERT MESSAGE */
+.alert-msg {
+    padding: 16px 48px;
+    color: green;
+}
+
+.alert-container {
+    border-left: 4px solid green;
+    height: 30px;
+    width: auto;
+    margin: 8px 48px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: left;
+}
+
+.alert-container.error {
+    border-left: 4px solid red;
+    color: red;
+    padding: 8px;
+}
+
+.alert-container .fa-circle-check {
+    padding: 8px;
+}
+
+.ai-text-generative-button {
+    border: 1px solid #f15a28;
+    padding: 10px;
+    margin: 0 0 0px 10px;
+    border-radius: 20px;
+}
+
+.ai-text-generative-button:hover {
+    background-color:  #f15a28;
+   color: white;
+}
+
+.gif-star {
+    width: 2em;
+}
+
+/* REACT QUILL STYLING */
+
+.react-quill-editor, .ql-editor  {
+    border: 1px solid #3862c4;
+    width: 775px;
+    height: 250px;
+    border-radius: 5px;
+}
+
+.spinner-border {
+    --bs-spinner-width: 1rem;
+    --bs-spinner-height: 1rem;
+}
+
+/* RESPONSIVE */
+@media screen and (max-width : 856px) {
+    .Product-container  .filds-form {
+      flex-wrap: wrap;
+      width: 100%;
+      margin: 8px 8px;
+    }
+
+    .filds.product {
+        width: 100%;
+        margin: 8px 0;
+    }
+
+    /*
+    .filds+.filds {
+        margin: 16px 0 0 0;;
+    }
+*/
+    .label-input-file {
+        width: 100%;
+       /* background-color: antiquewhite;*/
+    }
+
+
+    .input-img-product {
+        border: 1px hidden green;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+    }
+
+    .Product-container {
+        overflow: hidden;
+    }
+
+     .filds+.filds  {
+        margin: 0;
+    }
+
+    .label-input-file {
+        margin: 8px;
+    }
+
+    .filds.select-product {
+        width: 100%;
+    }
+
+    .filds-form.select-availability {
+        border: 1px hidden black;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
+    #radio-button {
+        margin: 8px;
+    }
+}

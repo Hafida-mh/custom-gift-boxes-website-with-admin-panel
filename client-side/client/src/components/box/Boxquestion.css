@@ -1,0 +1,188 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.Boxquestions {
+    border: 1px hidden black;
+    min-height: 100vh;
+    width: 100%;
+    overflow-x: hidden;
+    position: relative;
+}
+
+.personnalise-box-title {
+    width: 100%;
+    padding: 0 0 50px 0;
+    font-size: 3em;
+    font-family: "Gotham";
+    text-align: center;
+    font-weight: 800;
+    color: #E53312;
+}
+
+.personnalise-box-title.title-box {
+    padding-bottom: 0;
+    font-size: 5em;
+}
+
+.allboxes-container {
+    border: 1px hidden red;
+    height: auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+/* BOX CARD */
+.boxe-card, .boxe-card-deleted, .boxe-card-selected {
+    border: 1px solid #E77068;
+    width: 300px;
+    margin: 10px;
+    border-radius: 18px;
+    height: auto;
+    position: relative;
+    cursor: pointer;
+}
+
+.boxe-card-selected {
+    transform: scale(0.9);
+}
+
+.boxe-card-deleted {
+    transform: scale(1);
+}
+
+.img-box {
+    border: 1px hidden green;
+    height: 200px;
+    width: 320px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 18px;
+    padding: 8px;
+}
+
+.img-box img {
+    height: 190px;
+    width: 220px;
+}
+
+.price-box {
+    border: 1px hidden black;
+    height: auto;
+    width: 100%;
+    text-align: center;
+    font-family: "Gothambold";
+    font-size: 1.4em;
+    font-weight: 800;
+}
+
+.box-name {
+    font-size: 1.5em;
+    text-align: center;
+    font-family: "Gotham";
+    color: #E53312;
+}
+
+.form-box-container {
+    border: 1px hidden red;
+    width: 320px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 0;
+}
+
+.form-qte-box {
+    border: 1px hidden red;
+    width: 30%;
+    height: auto;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 1.2em;
+    background-color: #e532124a;
+}
+
+.form-qte-box input {
+    border: 1px hidden red;
+    width: 30%;
+    height: auto;
+    background-color: #e5321205;
+}
+
+/* DELETE BOX CARD BUTTON */
+.button-selected {
+    border: none;
+    background-color: transparent;
+    display: block;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+}
+
+.button-selected img {
+   width: 3em;
+}
+
+.button-nnon-selected {
+    display: none;
+}
+
+/* NEXT PREVIOUS BUTTONNS + ALERT */
+.alert-container-choixe-box {
+    border: 1px hidden red;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.alert-choice-box {
+    width: 320px;
+    margin: 20px 0 0 0;
+}
+
+.buttons-follow-questions {
+    border: 1px hidden orange;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+}
+
+.action-button {
+    border: 1px solid #E53312;
+    padding: 16px;
+    border-radius: 6px;
+    background-color: #E53312;
+    color: white;
+    margin: 8px;
+    font-size: 1em;
+    font-family: "Gotham";
+    font-weight: 800;
+}
+
+.action-button.previous {
+    background-color: transparent;
+    border: none;
+    color: #E53312;
+}
+
+/* RESPONSIVE */
+
+@media screen and (max-width: 425px) {
+    
+.buttons-follow-questions {
+    border: 1px hidden orange;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    padding: 5px 0 10px 0;
+}
+}

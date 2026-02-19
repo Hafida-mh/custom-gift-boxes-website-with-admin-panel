@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.contactpage {
+    border: 1px hidden black;
+    height: auto;
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-direction: column;
+    overflow-y: hidden;
+    overflow: hidden;
+}
+
+.contact-navbar-container,
+.contact-footer-container {
+    border: 1px hidden red;
+    width: 100%;
+    height: auto;
+}
+
+.contact-container-content {
+    border: 1px hidden black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    flex-direction: column;
+}
+
+.contactpage .contact-container-content h1 {
+    font-size: 4em;
+    padding: 30px 0 10px 0;
+    font-family: "Gothambold";
+    margin: 35px 0 0 0;
+}
+
+.contactpage .contact-container-content h3 {
+    font-family: "Gotham";
+    font-weight: 800;
+    color: #E53312;
+    text-align: center;
+ }
+
+.devis-container {
+    border: 1px hidden red;
+    height: auto;
+    width: 90%;
+    margin: 50px 0 0 0;
+}
+
+.devis-container p {
+    font-size: 1.35em;
+    font-family: "Gotham";
+}
+
+.submit-contact {
+background-color: #E53312;
+border: none;
+color: white;
+padding: 12px;
+border-radius: 12px;
+margin: 0 0 0 18px;
+}
+
+.devis-container .text-area-input {
+    margin: 20px 0 12px 12px;
+}
+
+.devis-container  .alert-container-choixe-box {
+    justify-content: flex-start;
+    margin: 0 0 0 15px;
+}
+
+/* RESPONSIVE */
+@media screen  and (max-width: 1024px){
+    .devis-container .text-area-input {
+        width: 650px;
+    }
+}
+    
+
+@media screen and (max-width: 768px) {
+    .devis-container  .div-input-information input, 
+    .devis-container .text-area-input{
+        width: 90%;
+    }
+
+    .contactpage .contact-container-content h1 {
+        font-size: 3em;
+    }
+
+    .devis-container p {
+        font-size: 1.15em;
+    }
+}
+
+@media screen and (max-width: 425px){
+    .devis-container p {
+        font-size: 1em;
+    }
+}

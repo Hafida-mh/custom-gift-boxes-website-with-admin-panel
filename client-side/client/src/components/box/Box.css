@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.Box {
+    border: 1px hidden black;
+    min-height: 100vh;
+    width: 100%;
+    overflow-x: hidden;
+    position: relative;
+}
+
+.box-title {
+    width: 100%;
+    padding: 50px 50px 10px 50px;
+    font-size: 5em;
+    font-family: "Gothambold";
+    text-align: center;
+    color: #E53312;
+}
+
+.text-box-page {
+    padding: 30px 30px 0 30px;
+    font-family: "Gotham";
+    font-size: 1.3em;
+    font-weight: 800;
+}
+
+.choice-box-conatainer {
+    border: 1px hidden red;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    flex-wrap: wrap;
+}
+
+.box-type-container {
+    border: 1px solid #E77068;
+    height: auto;
+    width: 600px;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.image-sectionn-box-type {
+    border: 1px hidden orange;
+    width: 550px;
+    height: 268.52px;
+    border-radius: 10px;
+}
+
+.special-box-img {
+    width: 550px;
+    height: 268.52px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.title-box-choice {
+    font-family: "Gotham";
+    font-weight: 800;
+    padding: 20px 20px 10px 20px;
+}
+
+.discover-box-button {
+    border: 1px solid #E53312;
+    background-color: #E53312;
+    color: white;
+    padding: 12px;
+    font-size: 1em;
+    border-radius: 10px;
+    font-family: "Gotham";
+    font-weight: 800;
+}
+
+.motif-box-page {
+    position: absolute;
+    top: 19px;
+    right: 0;
+    height: 420px;
+    width: 350px;
+    z-index: -23679; 
+}
+
+/* RESPONSIVE */
+
+@media screen and (max-width: 768px) {
+    .motif-box-page  {
+        display: none;
+    }
+}
+
+@media screen and (max-width : 600px) {
+    .box-type-container,
+    .image-sectionn-box-type,
+    .special-box-img {
+        width: 100%;
+    }
+    .text-box-page {
+        text-align: center;
+    }
+}

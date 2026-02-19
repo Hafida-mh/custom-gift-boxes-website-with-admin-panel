@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.Alertworkshop, .alertworkshop-container {
+    height: auto;
+    width: 100%;
+    background-color: #ABF0E9;
+    text-align: center;
+    display: flex;
+   align-items: center;
+    justify-content: center;
+}
+
+.alertworkshop-container {
+    width: 90%;
+}
+
+.alertworkshop-container h6{
+  margin: 16px;
+  font-family: "Gotham";
+  font-size: 1em;
+  font-weight: 600;
+}
+
+/* RESPONNSIVE */
+@media screen and (max-width: 425px) {
+    .alertworkshop-container h6{
+        font-size: 0.8em;
+      }
+}

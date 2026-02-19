@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.Devis {
+    border: 1px hidden black;
+    min-height: 100%;
+    width: 100%;
+display: flex;
+    position: relative;
+}
+
+
+.Devis  .navigation-bar {
+    min-height: 100vh;
+    z-index: 200;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    background-color: #f5f6fa;
+}
+
+.Devis .navigation-bar {
+    max-height: 100%;
+    background-color: white;
+    z-index: 200;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    background-color: #f5f6fa;
+}
+
+.Devis .command-content {
+    width: 100%;
+    min-height: 100vh;
+}

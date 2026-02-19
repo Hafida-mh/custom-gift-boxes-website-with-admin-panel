@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.contact-container {
+    border: 1px hidden red;
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #EFF6EF;
+    position: relative;
+}
+
+.leaf-motif-sav {
+    position: absolute;
+    bottom: -68px;
+    right: -83px;
+    width: 25em;
+}
+
+.green-leaf {
+    position: absolute;
+    top: 80px;
+    left: 50px;
+    width: 130px;
+    height: 170px;
+}
+
+.small-leaf-sav-section {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 6em;
+}
+
+.logo-sav-container {
+    border: 1px hidden red;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo-sav-container img {
+    width: 16em;
+}
+
+.contact-container h1 {
+    font-size: 3.7em;
+    border: 1px hidden red;
+    font-weight: 700;
+    padding: 0 25px;
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+    color: #37ab59;
+}
+
+.contact-paragraph {
+    border: 1px hidden black;
+    text-align: center;
+}
+
+.contact-container p {
+    font-size: 1.3em;
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+    padding: 0 25px;
+    font-weight: 500;
+    /* color: white;*/
+}
+
+/* CLIENT INNFORMATION */
+.contact-informations {
+    border: 1px hidden red;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 20px;
+    flex-direction: column;
+}
+
+.contact-button-sav {
+    padding: 16px;
+    background-color: #37ab59;
+    color: white;
+    border: 1px solid #37ab59;
+    border-radius: 10px;
+    font-size: 1.3em;
+    font-weight: 500;
+}
+
+.signature-contact-section-sav {
+    padding: 20px 0 0 0;
+    font-family: "Dancing Script", cursive;
+    font-size: 5em;
+    color: #e4ece1;
+}
+
+/* RESPONSIVE */
+@media screen and (max-width:992px) {
+    .contact-container {
+        flex-direction: column;
+    }
+
+    .contact-container h1 {
+        text-align: center;
+    }
+
+    .contact-container p {
+        text-align: center;
+    }
+
+    .contact-informations.tel,
+    .contact-informations.email {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .contact-informations.social-media {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    .leaf-motif-sav,
+    .small-leaf-sav-section {
+        display: none;
+    }
+}
+
+@media screen and (max-width:578px) {
+
+    .sav-img,
+    .sav-img img {
+        border: 5px solid white;
+        height: 400px;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .green-leaf {
+        display: none;
+    }
+
+    .signature-contact-section-sav {
+        padding: 20px 0 29px 0;
+        line-height: 0.9;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 461px) {
+    .contact-container {
+        padding: 0;
+    }
+}

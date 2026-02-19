@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.allboxes-container {
+    border: 1px hidden black;
+    width: 100%;
+    height: auto;
+    padding: 55px;
+}
+
+.list-color-container {
+    border: 1px hidden red;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.color-badge {
+    border: 1px hidden red;
+    height: 40px;
+    width: 40px;
+    border-radius: 30px;
+    margin: 2px;
+    position: relative;
+    background-color: transparent;
+}
+
+.cancel-color-button {
+    border: none;
+    background-color: transparent;
+    position: absolute;
+    top: -11px;
+    left: 0;
+    font-weight: 800;
+    color: red;
+    border-radius: 100%;
+    text-align: center;
+}
+
+.cancel-color-button i {
+    background-color: white;
+    border: 1px solid red;
+    border-radius: 10px;
+}
+
+.row-color {
+    display: flex;
+    background-color: red;
+    height: auto;
+    z-index: 1;
+    align-items: center;
+}
+
+.allboxes-container  .label-input-file {
+   margin: 8px 0px 8px 0px; 
+   background-color: red;
+}
+
+.submit-button-edit-product.boxmodification {
+    margin: 8px 8px 8px 0px; 
+}
+
+.modal {
+    background-color: #dee6f6;
+}
+
+.allboxes-container .table-allproduct {
+    margin: 20px;
+    overflow: auto;
+    border: 1px hidden red;
+}
+
+/* RESPONSIVE */
+@media screen and (max-width:375px) {
+    .allboxes-container {
+        padding: 24px 0 0 24px;
+    }
+}

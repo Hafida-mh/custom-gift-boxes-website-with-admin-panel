@@ -1,0 +1,179 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.product-container {
+    border: 1px hidden black;
+    height: 100vh;
+    width: 100%;
+}
+
+.product-detail-container {
+    border: 1px hidden red;
+    height : auto; /*85VH*/
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 40px 0 0 0;
+}
+
+.product-img-container {
+    border: 1px hidden pink;
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.product-img-container img {
+    aspect-ratio: auto;
+    transform: scale(1.2);
+    height: 380px;
+}
+
+.img-icon-onature {
+    height: 30px;
+    width: 30px;
+}
+
+.hypollaergenique-img {
+    height: 35px;
+    width: 35px;
+}
+
+.guaranty-section {
+    color: #37ab59;
+    font-weight: 700;
+    font-family: "Roboto", sans-serif;
+}
+
+.product-details {
+    border: 1px hidden red;
+    height: auto;
+    width: 50%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    padding: 16px;
+}
+
+.product-details h1,
+.product-details h2 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+}
+
+.product-details h2 {
+    color: #37ab59;
+}
+
+.category-box {
+    /*
+    border: 1px hidden red;
+    height: auto;
+    width: auto;
+    padding: 8px;
+    border-radius: 5px;
+    background-color: #652e8e;
+    color: white;*/
+    color: #37ab59;
+    font-size: 1.2em;
+}
+
+.capacity-detail {
+    font-weight: 900;
+    font-family: "Roboto", sans-serif;
+    padding: 5px 0;
+    font-size: 1.2em;
+}
+
+.add-to-cart-button {
+    border: 1px hidden #871420;
+    padding: 8px;
+    color: white;
+    border-radius: 5px;
+    font-weight: 700;
+    margin: 8px 16px 8px 0;
+    background: #37ab59;
+}
+
+.add-to-cart-button.consulting {
+    background: white;
+    color: black;
+    border: 1px solid #652e8e;
+}
+
+.description-product-paragraph {
+    font-size: 1.3em;
+    font-family: "Roboto", sans-serif;
+    padding: 16px 0;
+    height: auto;
+}
+
+.all-buttons {
+    display: flex;
+    width: auto;
+    height: auto;
+    align-items: flex-start;
+}
+
+.politics-product {
+    border: 1px hidden black;
+    width: 100%;
+    height: auto;
+    margin: 16px 0;
+}
+
+.accordion-button {
+    background-color: white;
+}
+
+.footer-product {
+    margin: 16px 0;
+}
+
+/* RESPONSIVE */
+@media screen and (max-width:992px) {
+    .product-detail-container {
+        flex-direction: column;
+        height: auto;
+        padding: 8px;
+    }
+
+    .product-container {
+        height: auto;
+    }
+
+    .product-img-container img {
+        aspect-ratio: auto;
+        margin: 80px;
+    }
+
+    .product-details,
+    .product-img-container {
+        width: 100%;
+    }
+
+    .product-img-container {
+        width: 100%;
+        /*height: 300px;*/
+    }
+}
+
+@media screen and (max-width: 447px) {
+    .product-img-container img {
+
+        width: 280px;
+        aspect-ratio: auto;
+    }
+    .add-to-cart-button {
+        margin: 8px 5px 8px 0;
+        font-size: 0.75em;
+    }
+}
+
